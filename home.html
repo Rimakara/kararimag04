@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Home</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- header section starts -->
+    <header class="header">
+    <section class="flex">
+    <a href="home.html" class="logo">JOY</a>
+    <nav class="navbar">
+    <a href="home.html">home</a>
+    <a href="about.html">about</a>
+    <a href="tours.html">tours</a>
+    <a href="destination.html">destination</a>
+    <a href="contact.html">contact</a>
+    </nav>
+    <div id="menu-btn" class="fas bars"></div>
+    </section>
+    </header>
+    <!--header section ends-->
+    <!-- home section starts-->
+<div class="container home">
+<section class="flex">
+<form action="nv.php" method="post">
+    <h1>search your tour</h1><br><br>
+    <p>where to</p>
+<input type="text" name="location" required maxlength="50"
+placeholder="enter your location" class="box"> 
+<p>when to</p>
+<input type="date" name="date" class="box" required >
+<p>how many</p>
+<input type="number" name="guests" min="1" max="10" maxlength="2"
+ placeholder="number of guests" required class="box"> 
+<input type="submit" value="search tour"  name="search" class="btn">
+</form>
+</section>
+
+</div>
+
+<!-- home section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- custom js file link -->
+
+<script src="./script.js"></script>
+
+
+</head>
+<body>
+
+</body>
+</html>
